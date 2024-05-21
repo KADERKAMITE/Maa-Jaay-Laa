@@ -1,0 +1,328 @@
+@media body and (max-width:1500px) {
+
+}
+
+.kader{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    margin-top: 18px;
+}
+/* Barre de navigation */
+
+nav{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:blue;
+    position: relative;
+    top: 0;
+    
+
+}
+nav img{
+    width: 100px;
+    height: auto;
+    
+   margin-right: 70px;
+   
+}
+nav h1{
+    margin-top: 10px;
+   
+    
+    
+    
+}
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+nav .onglets a{
+    justify-content: center;
+    font-size: 17px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    color:black;
+    text-decoration: none;
+    transition: 1s;
+    background-color: white;
+    border-radius: 10px;
+    width: 130px;
+    transition: all 100ms;
+    
+}
+nav .onglets a:hover{
+    color: red;
+    transform: scale(0.9);
+}
+nav .onglets input{
+   
+    margin: 8px 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+nav .onglets i{
+    color: white;
+    margin: 8px ;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    
+}
+
+/* Fin de la barre */
+
+/*Corps */
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header h1{
+        font-size: 50px;
+        max-width: 500px;
+        text-align: center;
+        color: rgb(42, 82, 215);
+    }
+    header img{
+       width:100%;
+       height: 50%;
+       filter: brightness(90%);
+       position: static;
+       
+      
+    }
+   
+/* fin Corps*/
+
+/*Section */
+        .Habis{
+           
+            font-family: "Open Sans", sans-serif;
+            justify-content: center;
+            font-size: 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            margin: 8px ;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 100ms;
+        
+            }
+            .Habis:hover{
+                transform: scale(0.9); 
+                color: red;
+            }
+        
+        .main{
+            margin: 20px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /*exposition des produits */ 
+                             /*transform: scale(0.9);*/
+                .cards{
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+                }
+                .cards .card{
+                    justify-content: center;
+                    margin-right: 100px;
+                    cursor: pointer;
+                    transition: all .40s;
+                }
+                .cards .card img{
+                    margin-top: 10px;
+                    width: 300px;
+                    transition: all 100ms;
+                    
+                }
+                .cards .card img:hover{
+                    transform: scale(0.9);  
+                
+                
+                }
+                .icon{
+                     position: absolute;
+                     margin-left: 270px;
+                     font-size: 20px;
+                     
+                }
+                .icon:hover{
+                    color: red;
+                }
+                .etoile{
+                    color: #ff8C00;
+                    font-size: 18px;
+                }
+                .card-header{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    margin-right: 10px;
+                    text-transform: capitalize;
+                }
+                .card-header .titre{
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    font-weight: 400;
+                }
+                .card-header .price{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                .tec1{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .tec1 .tec2{
+                    justify-content: center;
+                    margin-right: 100px;
+                    cursor: pointer;
+                    transition: all .40s;
+                }
+
+                .tec1 .tec2 img{
+                    margin-top: 10px;
+                    width: 300px;
+                    height: 400px;
+                    transition: all 100ms;
+                    
+                }
+                .tec1 .tec2 img:hover{
+                    transform: scale(0.9);  
+                
+                
+                }
+                
+                
+                
+        /*fin exposition des produits*/
+
+         /*video de présentation */
+                    .main .video{
+                        margin-top: 80px;
+                        width: 90%;
+                    }
+                    .main .video iframe{
+                        border: none;
+                        border-radius: 10px;
+                        width: 100%;
+                        height: 400px;
+                    }
+        /* fin video de présentation*/
+/* fin Section*/
+                    .slider{
+                        margin-top: 100px;
+                        position: relative;
+                        width: 100%;
+                        min-height: 80vh;
+                        aspect-ratio: 19/9;
+                        background-color: rgb(175, 163, 163);
+                    }
+                    .content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        text-align: center;
+                    }
+                    .backgrund{
+                       width: 100%;
+                       height: 110%;
+                       object-fit: cover;
+                       filter: brightness(50%);
+
+                    }
+                    .logo{
+                        transition: all 100ms;
+                    }
+                    .logo:hover{
+                        transform: scale(0.9); 
+                        filter: contrast(10%);
+                        color: white;
+                    }
+                  
+                     .kisma{
+                        margin-top: 0px;
+                        color: white; 
+                        font-size: 2rem;
+    
+                    }
+                    .content .para{
+                        margin-top: 0%;
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: 300;
+                    }
+                    .section{
+                        padding: 1px 0;
+                    }
+                    .boxed{
+                        max-width: 1280px;
+                        margin-inline: auto;
+                    }
+                   
+                    .ser{
+                        margin: 0px;
+                        font-size: 20px;
+                        color: white;
+                    }
+                    a i{
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        color: white;
+                        
+                        
+                    }
+                   
+                    /*Pied de page */
+                        
+                    footer{
+                        margin-top: 100px;
+                        background-color: blue;
+                        color: #fff;
+                        height: 300px;
+                        padding: 10px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        
+                      
+                    }
+                    footer a{
+                        margin-right: 50px;
+                        font-size: 30px;
+                        padding: 3px;
+                        text-decoration: none;
+                        color: white;
+                    
+                    }
+                    footer i{
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        background-color: #f2f2f2;
+                        color: black;
+                        margin-left: 20px;
+                        margin-right: 150px;
+                        padding: 3px;
+                    }
+                    
+
+/* fin Pied de page*/
